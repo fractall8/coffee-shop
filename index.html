@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no"> 
+    <!-- Отключает форматирование ссылки на айфонах -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>main</title>
+</head>
+<body>
+    <header class="header">    
+    <div class="header__wrapper">
+        <div class="header__container _container">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__li"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__li"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__li"><a href="#menu" class="nav__link">Menu</a></li>
+                    <li class="nav__li"><a href="#reservation" class="nav__link">Reservation</a></li>
+                </ul>
+            </nav>
+            <a href="index.html" class="logo">
+                <img src="img/logo.svg" alt="Logo">
+            </a>
+            <div class="side-nav">
+                <ul class="side-nav__list nav__list">
+                    <li class="side-nav__li nav__li"><a href="#pages" class="nav__link">Pages</a></li>
+                    <li class="side-nav__li nav__li"><a href="#" class="nav__link">Shop</a></li>
+                    <li class="side-nav__li nav__li"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+                <ul class="search-cart__list">
+                    <li class="side-nav__li nav__li">
+                        <a href="#" class="nav__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                <path d="M13.75 23.75C19.2728 23.75 23.75 19.2728 23.75 13.75C23.75 8.22715 19.2728 3.75 13.75 3.75C8.22715 3.75 3.75 8.22715 3.75 13.75C3.75 19.2728 8.22715 23.75 13.75 23.75Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M26.25 26.25L20.8125 20.8125" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="side-nav__li nav__li">
+                        <a href="#" class="nav__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                <path d="M7.5 2.5L3.75 7.5V25C3.75 25.663 4.01339 26.2989 4.48223 26.7678C4.95107 27.2366 5.58696 27.5 6.25 27.5H23.75C24.413 27.5 25.0489 27.2366 25.5178 26.7678C25.9866 26.2989 26.25 25.663 26.25 25V7.5L22.5 2.5H7.5Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3.75 7.5H26.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 12.5C20 13.8261 19.4732 15.0979 18.5355 16.0355C17.5979 16.9732 16.3261 17.5 15 17.5C13.6739 17.5 12.4021 16.9732 11.4645 16.0355C10.5268 15.0979 10 13.8261 10 12.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="burger">
+                        <span></span><span></span><span></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+    <main>
+        <section class="hero">
+            <picture><source srcset="img/background.webp" type="image/webp"><img src="img/background.jpg" alt="Coffee"></picture>
+            <video src="files/01.mp4" autoplay muted loop preload="auto" class="hero__video bg__video">
+            </video>
+            <div class="hero__container _container">
+                <div class="hero__article">
+                    <h1 class="hero__title">
+                        Enjoy Your <br>
+                        Morning Coffee. 
+                    </h1>
+                    <p class="text hero__text">
+                        The coofee is brewed by fist roasting the green coffee beans over hot coals in brazier. given to Opportunity
+                    </p>
+                    <a href="/" class="button view-more">Test Coffee</a>
+                </div>
+                <div class="video">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18" fill="none">
+                            <path d="M0 0L14 9L0 18V0Z" fill="white"/>
+                        </svg>
+                        <span></span><span></span>
+                    </div>
+                    <div class="play">
+                        <p class="text__play">Play video</p>
+                        <p class="text__stop">Stop video</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reasons">
+            <div class="reasons__container _container">
+                <div class="section__header">
+                    <h4 class="section-theme">
+                        Advantages
+                    </h4>
+                    <h2 class="title">
+                        Our advantages
+                    </h2>
+                </div>
+                <ol class="cards photo__cards">
+                    <li class="photo__card">
+                        <h3 class="photo__title">
+                            Best Coffee Flavour
+                        </h3>
+                        <div class="photo">
+                            <picture><source srcset="img/reason/01.webp" type="image/webp"><img src="img/reason/01.jpg" alt=""></picture>
+                        </div>
+                    </li>
+                    <li class="photo__card">
+                        <h3 class="photo__title">
+                            Best Coffee Flavour
+                        </h3>
+                        <div class="photo">
+                            <picture><source srcset="img/reason/02.webp" type="image/webp"><img src="img/reason/02.jpg" alt=""></picture>
+                        </div>
+                    </li>
+                    <li class="photo__card">
+                        <h3 class="photo__title">
+                            Proper roesting
+                        </h3>
+                        <div class="photo">
+                            <picture><source srcset="img/reason/03.webp" type="image/webp"><img src="img/reason/03.jpg" alt=""></picture>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <section class="our-history">
+            <div class="our-history__container _container">
+                <div class="our-history__col our-history__col--double">
+                    <div class="history__img"><picture><source srcset="img/reason/02.webp" type="image/webp"><img src="img/reason/02.jpg" alt="Coffee art"></picture></div>
+                    <div class="history__img"><picture><source srcset="img/reason/01.webp" type="image/webp"><img src="img/reason/01.jpg" alt="Coffee art"></picture></div>
+                </div>
+                <div class="our-history__col">
+                    <div class="history__img"><picture><source srcset="img/reason/04.webp" type="image/webp"><img src="img/reason/04.jpg" alt="Coffee art"></picture></div>
+                </div>
+                <div id='about' class="our-history__article">
+                    <h4 class="section-theme">
+                        Our history
+                    </h4>
+                    <h2 class="our-history__title">
+                        Create a <br>
+                        new story with us
+                    </h2>
+                    <p class="our-history__text text">
+                        mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nibh maximus, est eu, mattis nuce. preasent ut quam quis quam venen
+                        atis fringilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="popular-products">
+            <div class="section__header">
+                <h4 class="section-theme">
+                    Popular products
+                </h4>
+                <h2 class="title">
+                    Coffee popular Product
+                </h2>
+            </div>
+            <div class="_container">
+                <div class="cards">
+                    <div class="card">
+                        <div class="card__img">
+                            <picture><source srcset="img/popular/01.webp" type="image/webp"><img src="img/popular/01.jpg" alt="brazilian coffee"></picture>
+                        </div>
+                        <div class="rating">
+                            <p class="rating__text">coffee</p>
+                            <ul class="rating__list">
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star-empty.svg" alt=""></li>
+                            </ul>
+                        </div>
+                        <h3 class="card__title">
+                            brazil coffee gred
+                        </h3>
+                        <div class="price">
+                            <p>Price - <span class="price-colored">$320.00/</span> <span class="line">$358</span></p>
+                        </div>
+                        <div class="add-to-card">
+                            <div class="button button--add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3 6H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 10C16 11.0609 15.5786 12.0783 14.8284 12.8284C14.0783 13.5786 13.0609 14 12 14C10.9391 14 9.92172 13.5786 9.17157 12.8284C8.42143 12.0783 8 11.0609 8 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__img">
+                            <picture><source srcset="img/popular/01.webp" type="image/webp"><img src="img/popular/01.jpg" alt="brazilian coffee"></picture>
+                        </div>
+                        <div class="rating">
+                            <p class="rating__text">coffee</p>
+                            <ul class="rating__list">
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star-empty.svg" alt=""></li>
+                            </ul>
+                        </div>
+                        <h3 class="card__title">
+                            brazil coffee gred
+                        </h3>
+                        <div class="price">
+                            <p>Price - <span class="price-colored">$320.00/</span> <span class="line">$358</span></p>
+                        </div>
+                        <div class="add-to-card">
+                            <div class="button button--add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3 6H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 10C16 11.0609 15.5786 12.0783 14.8284 12.8284C14.0783 13.5786 13.0609 14 12 14C10.9391 14 9.92172 13.5786 9.17157 12.8284C8.42143 12.0783 8 11.0609 8 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__img">
+                            <picture><source srcset="img/popular/01.webp" type="image/webp"><img src="img/popular/01.jpg" alt="brazilian coffee"></picture>
+                        </div>
+                        <div class="rating">
+                            <p class="rating__text">coffee</p>
+                            <ul class="rating__list">
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star-empty.svg" alt=""></li>
+                            </ul>
+                        </div>
+                        <h3 class="card__title">
+                            brazil coffee gred
+                        </h3>
+                        <div class="price">
+                            <p>Price - <span class="price-colored">$320.00/</span> <span class="line">$358</span></p>
+                        </div>
+                        <div class="add-to-card">
+                            <div class="button button--add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3 6H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 10C16 11.0609 15.5786 12.0783 14.8284 12.8284C14.0783 13.5786 13.0609 14 12 14C10.9391 14 9.92172 13.5786 9.17157 12.8284C8.42143 12.0783 8 11.0609 8 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="/" class="button view-more">View all products</a>
+            </div>
+        </section>
+        <section class="coffee-machine">
+            <div class="coffee-machine__container _container">
+                <div class="coffee-machine__wrapper">
+                    <div class="coffee-machine__img">
+                        <picture><source srcset="img/machine2.webp" type="image/webp"><img src="img/machine2.jpg" alt="coffee-machine"></picture>
+                    </div>
+                    <div class="coffee-machine__article">
+                        <h2 class="title">
+                            Coffee <br>
+                            machine, buy for home
+                        </h2>
+                        <p class="text">
+                            mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula
+                            volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nib
+                             maximus, est eu, mattis nuce. preasent ut quam quis quam venen atis fri
+                            ngilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.
+                        </p>
+                        <a href="/" class="button coffee-machine__button">Discover now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id='menu' class="menu__sec">
+            <div class="section__header">
+                <h4 class="section-theme">
+                    Menu
+                </h4>
+                <h2 class="title">
+                    Coffee popular menu
+                </h2>
+            </div>
+            <div class="menu__container _container">
+                <div class="menu">
+                    <div class="menu__item">
+                        <div class="menu__img _ibg">
+                            <picture><source srcset="img/reason/01.webp" type="image/webp"><img src="img/reason/01.jpg" alt=""></picture>
+                        </div>
+                        <div class="menu__text">
+                            <h4 class="menu__title">
+                                Americano rosted gred
+                            </h4>
+                            <div class="menu__price">
+                                $12:00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__img _ibg">
+                            <picture><source srcset="img/reason/02.webp" type="image/webp"><img src="img/reason/02.jpg" alt=""></picture>
+                        </div>
+                        <div class="menu__text">
+                            <h4 class="menu__title">
+                                Americano rosted gred
+                            </h4>
+                            <div class="menu__price">
+                                $12:00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__img _ibg">
+                            <picture><source srcset="img/reason/03.webp" type="image/webp"><img src="img/reason/03.jpg" alt=""></picture>
+                        </div>
+                        <div class="menu__text">
+                            <h4 class="menu__title">
+                                Americano rosted gred
+                            </h4>
+                            <div class="menu__price">
+                                $12:00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__img _ibg">
+                            <picture><source srcset="img/reason/06.webp" type="image/webp"><img src="img/reason/06.jpg" alt=""></picture>
+                        </div>
+                        <div class="menu__text">
+                            <h4 class="menu__title">
+                                Americano rosted gred
+                            </h4>
+                            <div class="menu__price">
+                                $12:00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__img _ibg">
+                            <picture><source srcset="img/reason/05.webp" type="image/webp"><img src="img/reason/05.jpg" alt=""></picture>
+                        </div>
+                        <div class="menu__text">
+                            <h4 class="menu__title">
+                                Americano rosted gred
+                            </h4>
+                            <div class="menu__price">
+                                $12:00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__img _ibg">
+                            <picture><source srcset="img/reason/06.webp" type="image/webp"><img src="img/reason/06.jpg" alt=""></picture>
+                        </div>
+                        <div class="menu__text">
+                            <h4 class="menu__title">
+                                Americano rosted gred
+                            </h4>
+                            <div class="menu__price">
+                                $12:00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__img _ibg">
+                            <picture><source srcset="img/reason/07.webp" type="image/webp"><img src="img/reason/07.jpg" alt=""></picture>
+                        </div>
+                        <div class="menu__text">
+                            <h4 class="menu__title">
+                                Americano rosted gred
+                            </h4>
+                            <div class="menu__price">
+                                $12:00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__img _ibg">
+                            <picture><source srcset="img/reason/08.webp" type="image/webp"><img src="img/reason/08.jpg" alt=""></picture>
+                        </div>
+                        <div class="menu__text">
+                            <h4 class="menu__title">
+                                Americano rosted gred
+                            </h4>
+                            <div class="menu__price">
+                                $12:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="section__header">
+                <h4 class="section-theme">
+                    Testimonial
+                </h4>
+                <h2 class="title">
+                    Says our customers
+                </h2>
+            </div>
+            <div class="reviews__container _container">
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__top">
+                            <div class="review__img _ibg">
+                                <picture><source srcset="img/review/02.webp" type="image/webp"><img src="img/review/02.jpg" alt=""></picture>
+                            </div>
+                            <div class="review__text">
+                                <p class="text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                            </div>
+                        </div>
+                        <div class="review__bottom">
+                            <div class="author">
+                                <div class="name">
+                                    <p>John Smith</p>
+                                </div>
+                                <div class="position">
+                                    <p>Product Designer</p>
+                                </div>
+                            </div>
+                            <ul class="rating__list">
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star-empty.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__top">
+                            <div class="review__img _ibg">
+                                <picture><source srcset="img/review/01.webp" type="image/webp"><img src="img/review/01.jpg" alt=""></picture>
+                            </div>
+                            <div class="review__text">
+                                <p class="text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                            </div>
+                        </div>
+                        <div class="review__bottom">
+                            <div class="author">
+                                <div class="name">
+                                    <p>John Smith</p>
+                                </div>
+                                <div class="position">
+                                    <p>Product Designer</p>
+                                </div>
+                            </div>
+                            <ul class="rating__list">
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star-empty.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__top">
+                            <div class="review__img _ibg">
+                                <picture><source srcset="img/review/01.webp" type="image/webp"><img src="img/review/01.jpg" alt=""></picture>
+                            </div>
+                            <div class="review__text">
+                                <p class="text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                            </div>
+                        </div>
+                        <div class="review__bottom">
+                            <div class="author">
+                                <div class="name">
+                                    <p>Alex Robertson</p>
+                                </div>
+                                <div class="position">
+                                    <p>Product Designer</p>
+                                </div>
+                            </div>
+                            <ul class="rating__list">
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star-empty.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__top">
+                            <div class="review__img _ibg">
+                                <picture><source srcset="img/review/02.webp" type="image/webp"><img src="img/review/02.jpg" alt=""></picture>
+                            </div>
+                            <div class="review__text">
+                                <p class="text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                            </div>
+                        </div>
+                        <div class="review__bottom">
+                            <div class="author">
+                                <div class="name">
+                                    <p>John Smith</p>
+                                </div>
+                                <div class="position">
+                                    <p>Product Designer</p>
+                                </div>
+                            </div>
+                            <ul class="rating__list">
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star-empty.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__top">
+                            <div class="review__img _ibg">
+                                <picture><source srcset="img/review/01.webp" type="image/webp"><img src="img/review/01.jpg" alt=""></picture>
+                            </div>
+                            <div class="review__text">
+                                <p class="text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                            </div>
+                        </div>
+                        <div class="review__bottom">
+                            <div class="author">
+                                <div class="name">
+                                    <p>John Smith</p>
+                                </div>
+                                <div class="position">
+                                    <p>Product Designer</p>
+                                </div>
+                            </div>
+                            <ul class="rating__list">
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star-empty.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__top">
+                            <div class="review__img _ibg">
+                                <picture><source srcset="img/review/01.webp" type="image/webp"><img src="img/review/01.jpg" alt=""></picture>
+                            </div>
+                            <div class="review__text">
+                                <p class="text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                            </div>
+                        </div>
+                        <div class="review__bottom">
+                            <div class="author">
+                                <div class="name">
+                                    <p>Saddam Hussain</p>
+                                </div>
+                                <div class="position">
+                                    <p>Product Designer</p>
+                                </div>
+                            </div>
+                            <ul class="rating__list">
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star.svg" alt=""></li>
+                                <li class="rating__li"><img src="img/popular/star-empty.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__progress">
+                    <div class="reviews__dots">
+                        <div class="slides-numbers">
+                            <span class="active">1</span> / <div class="slider-total"><span class="total"></span><span class="people">People</span></div>
+                        </div>
+                        <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                            
+                        </div>
+                    </div>
+                    <div class="reviews__arrows">
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id='reservation' class="booking">
+            <div class="booking__container _container">
+                <div class="booking__wrapper">
+                    <div class="booking__img _ibg">
+                        <picture><source srcset="img/map.webp" type="image/webp"><img src="img/map.jpg" alt=""></picture>
+                    </div>
+                    <div class="booking__article">
+                        <div class="section__header">
+                            <h4 class="section-theme">
+                                Reservation
+                            </h4>
+                            <h2 class="title">
+                                Booking a table
+                            </h2>
+                        </div>
+                        <form action="" class="booking__form">
+                            <input class="booking__input" type="text" placeholder="4 person">
+                            <input class="booking__input" type="text" placeholder="12.25, 2020">
+                            <input type="text" class="booking__input" placeholder="11:00 AM">
+                            <button type="submit" class="button booking__button">BOOK A TABLE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id='pages' class="news">
+            <div class="news__container _container">
+                <div class="section__header">
+                    <h4 class="section-theme">
+                        Pages
+                    </h4>
+                    <h2 class="title">
+                        Our news
+                    </h2>
+                </div>
+                <div class="news__cards cards">
+                    <div class="news__card">
+                       <div class="news__img _ibg">
+                            <picture><source srcset="img/reason/09.webp" type="image/webp"><img src="img/reason/09.jpg" alt=""></picture>
+                       </div> 
+                       <div class="news__article">
+                            <div class="news__top">
+                                <div class="news__author">
+                                    <p><span>By:</span> rasaline</p>
+                                </div>
+                                <div class="news__date">
+                                    <p>23.01.2021</p>
+                                </div>
+                            </div>
+                            <div class="news__text">
+                                <p>Ideal cocktails from barmen....</p>
+                            </div>
+                            <div class="news__read-more">
+                                <a class="news__read-more__link " href="/">Read More</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 12H19" stroke="#C99E71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 5L19 12L12 19" stroke="#C99E71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="news__card">
+                        <div class="news__img _ibg">
+                             <picture><source srcset="img/reason/10.webp" type="image/webp"><img src="img/reason/10.jpg" alt=""></picture>
+                        </div> 
+                        <div class="news__article">
+                             <div class="news__top">
+                                 <div class="news__author">
+                                     <p><span>By:</span> rasaline</p>
+                                 </div>
+                                 <div class="news__date">
+                                     <p>23.01.2021</p>
+                                 </div>
+                             </div>
+                             <div class="news__text">
+                                 <p>Ideal cocktails from barmen....</p>
+                             </div>
+                             <div class="news__read-more">
+                                 <a class="news__read-more__link " href="/">Read More</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                     <path d="M5 12H19" stroke="#C99E71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M12 5L19 12L12 19" stroke="#C99E71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg>
+                             </div>
+                        </div>
+                     </div>
+                     <div class="news__card">
+                        <div class="news__img _ibg">
+                             <picture><source srcset="img/reason/01.webp" type="image/webp"><img src="img/reason/01.jpg" alt=""></picture>
+                        </div> 
+                        <div class="news__article">
+                             <div class="news__top">
+                                 <div class="news__author">
+                                     <p><span>By:</span> rasaline</p>
+                                 </div>
+                                 <div class="news__date">
+                                     <p>23.01.2021</p>
+                                 </div>
+                             </div>
+                             <div class="news__text">
+                                 <p>Ideal cocktails from barmen....</p>
+                             </div>
+                             <div class="news__read-more">
+                                 <a class="news__read-more__link " href="/">Read More</a>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                     <path d="M5 12H19" stroke="#C99E71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                     <path d="M12 5L19 12L12 19" stroke="#C99E71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg>
+                             </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    <div class="_container">
+        <div class="footer__top">
+            <a href="index.html" class="logo">
+                <img src="img/logo.svg" alt="Logo">
+            </a>
+            <ul class="nav__list">
+                <li class="nav__li"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__li"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__li"><a href="#menu" class="nav__link">Menu</a></li>
+                <li class="nav__li"><a href="#reservation" class="nav__link">Reservation</a></li>
+                <li class="nav__li"><a href="#pages" class="nav__link">Pages</a></li>
+                <li class="nav__li"><a href="#" class="nav__link">Shop</a></li>
+                <li class="nav__li"><a href="#" class="nav__link">Contact</a></li>
+            </ul>
+            <form action="" class="form__foo">
+                <input type="text" placeholder="Enter email" class="footer__input">
+                <button class="footer__button" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M4.99994 12L18.9999 12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 5L19 12L12 19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="footer__bottom copy">
+        <p>qe-Tennis © 2021. All rights reserved.</p>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js?_v=20240511125423"></script>
+    <script src="js/slick.min.js?_v=20240511125423"></script>
+    <script src="js/app.min.js?_v=20240511125423"></script>
+</body>
+</html>
